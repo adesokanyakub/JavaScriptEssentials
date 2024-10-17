@@ -1,10 +1,10 @@
-const pancakes = '$12'; 
-const eggBenedict = '$22.99';
-const pizza = '$7.99';
-const oatMeal = '$21.99';
-const frittata = '$15';
+const pancakes = 12; 
+const eggBenedict = 22.99;
+const pizza = 7.99;
+const oatMeal = 21.99;
+const frittata = 15;
 
-const breakfastMenu = [`Pancakes - ${pancakes}`, `Pizza - ${pizza}`, `Eggs Benedict - ${eggBenedict}`, `Oatmeal - ${oatMeal}`, `Frittata - ${frittata}`];
+const breakfastMenu = [`Pancakes - $${pancakes}`, `Pizza - $${pizza}`, `Eggs Benedict - $${eggBenedict}`, `Oatmeal - $${oatMeal}`, `Frittata - $${frittata}`];
 const mainCourseMenu = ['Steak', 'Pasta', 'Burger', 'Salmon'];
 const dessertMenu = ['Cake', 'Ice Cream', 'Pudding', 'Fruit Salad'];
 
